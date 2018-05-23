@@ -14,7 +14,7 @@ module.exports = {
       { property: 'og:url', content: 'https://isla.network' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/isla-favicon.png' },
+      { rel: 'icon', type: 'image/x-icon', href: '/isla-favicon.ico' },
       { href: 'https://fonts.googleapis.com/css?family=Archivo+Black', rel: 'stylesheet'} // change this to a newly chosen font
     ]
   },

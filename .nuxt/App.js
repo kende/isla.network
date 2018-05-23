@@ -11,7 +11,7 @@ let layouts = {
 let resolvedLayouts = {}
 
 export default {
-  head: {"title":"Isla","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"A decentralized support network for the island."},{"property":"og:title","content":"Isla"},{"property":"og:description","content":"A decentralized support network for the island."},{"property":"og:url","content":"https:\u002F\u002Fisla.network"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fisla-favicon.png"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Archivo+Black","rel":"stylesheet"}],"style":[],"script":[]},
+  head: {"title":"Isla","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"A decentralized support network for the island."},{"property":"og:title","content":"Isla"},{"property":"og:description","content":"A decentralized support network for the island."},{"property":"og:url","content":"https:\u002F\u002Fisla.network"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Fisla-favicon.ico"},{"href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Archivo+Black","rel":"stylesheet"}],"style":[],"script":[]},
   render(h, props) {
     const loadingEl = h('nuxt-loading', { ref: 'loading' })
     const layoutEl = h(this.layout || 'nuxt')
